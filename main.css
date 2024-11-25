@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color:fuchsia;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:#fff;
+    color:fuchsia;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-materiais .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(225, 180, 180);
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-papelaria,
+#promocoes {
+    background-color: rgb(225, 180, 180);
+}
+
+.text-colored {
+    color:fuchsia;
+}
+
+.nav-materiais .nav-link.active,
+#fale-conosco button {
+    background-color: fuchsia;
+    color: #fff;
+}
+
+.nav-materiais .nav-link:hover {
+    color:fuchsia;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
